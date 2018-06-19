@@ -1,0 +1,10 @@
+snippet balise "Insertion d'un bloc balise" 
+<${1:balise}>
+  ${0}
+</${1/([A-Za-z0-9]+).*/$1/}>
+endsnippet
+
+snippet baliselin "Insertion d'un bloc balise linéaire" !b
+<${1:balise}>  ${0} </${1/([A-Za-z0-9]+).*/$1/}>
+
+endsnippet

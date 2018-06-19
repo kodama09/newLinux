@@ -1,0 +1,235 @@
+extends texmath
+
+###########################################################################
+#                             LATEX SNIPPETS                              #
+###########################################################################
+
+snippet r "\ref{}" w
+\ref{$1}
+endsnippet
+
+###########################################################################
+#                            TEXTMATE SNIPPETS                            #
+###########################################################################
+
+#################
+# GENERAL STUFF #
+#################
+snippet "b(egin)?" "begin{} / end{}" br
+\begin{${1:something}}
+	${0:${VISUAL}}
+\end{$1}
+endsnippet
+
+####################
+# TABULARS, ARRAYS #
+####################
+
+snippet tab
+\begin{${1:t}${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}{${2:c}}
+$0${2/((?<=.)c|l|r)|./(?1: & )/g}
+\end{$1${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}
+endsnippet
+
+########################
+# ENUM, DESCR, ITEMIZE #
+########################
+snippet enum "Enumerate" b
+\begin{enumerate} %{{{
+	\item $0
+\end{enumerate} %}}}
+endsnippet
+
+snippet item "Itemize" b
+\begin{itemize} %{{{
+	\item $0
+\end{itemize} %}}}
+endsnippet
+
+snippet desc "Description" b
+\begin{description} %{{{
+	\item[$1] $0
+\end{description} %}}}
+endsnippet
+
+#####################################
+# SECTIONS, CHAPTERS AND THERE LIKE #
+#####################################
+
+snippet part "Part" b
+\part{${1:part name}} %{{{
+\label{prt:${2:${1/(\w+)|\W+/(?1:\L$0\E:_)/g}}}
+${0}
+%}}} part $2 (end)
+endsnippet
+
+snippet chapter "Chapter" b
+\chapter{${1:chapter name}} %{{{
+\label{cha:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} chapter $2 (end)
+endsnippet
+
+snippet nnumchapter "Chapter" b
+\chapter*{${1:chapter name}} %{{{
+\addcontentsline{toc}{chapter}{$1}
+\label{cha:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} chapter $2 (end)
+endsnippet
+
+snippet section "Section" b
+\section{${1:section name}} %{{{
+\label{sec:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} section $2 (end)
+endsnippet
+
+snippet nnumsection "Section" b
+\section*{${1:section name}} %{{{
+\addcontentsline{toc}{section}{$1}
+\label{sec:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} section $2 (end)
+endsnippet
+
+snippet ssection "Subsection" b
+\subsection{${1:subsection name}} %{{{
+\label{sub:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} subsection $2 (end)
+endsnippet
+
+snippet nnumssection "Subsection" b
+\subsection*{${1:subsection name}} %{{{
+\addcontentsline{toc}{ssection}{$1}
+\label{sub:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} subsection $2 (end)
+endsnippet
+
+snippet sssection "Subsubsection" b
+\subsubsection{${1:subsubsection name}} %{{{
+\label{ssub:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} subsubsection $2 (end)
+endsnippet
+
+snippet nnumsssection "Subsubsection" b
+\subsubsection*{${1:subsubsection name}} %{{{
+\addcontentsline{toc}{sssection}{$1}
+\label{ssub:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} subsubsection $2 (end)
+endsnippet
+
+snippet para "Paragraph" b
+\paragraph{${1:paragraph name}} %{{{
+\label{par:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} paragraph $2 (end)
+endsnippet
+
+snippet nnumpara "Paragraph" b
+\paragraph*{${1:paragraph name}} %{{{
+\addcontentsline{toc}{paragraph}{$1}
+\label{par:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} paragraph $2 (end)
+endsnippet
+
+snippet spara "Subparagraph" b
+\subparagraph{${1:subparagraph name}} %{{{
+\label{spar:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} subparagraph $2 (end)
+endsnippet
+
+snippet nnumspara "Subparagraph" b
+\subparagraph*{${1:subparagraph name}} %{{{
+\addcontentsline{toc}{suparagaph}{$1}
+\label{spar:${2:${1/\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)/(?4:_:\L$1$2$3\E)/g}}}
+${0}
+%}}} subparagraph $2 (end)
+endsnippet
+
+snippet flyleaf "Page de Garde du document par Kodama" b
+% Page de couverture {{{
+\title{\Large{${1:`!p snip.rv = snip.fn`}}}
+\author{${2:`echo $USER`}}
+\date{${3:`date +'%A %d %B %Y'`}}
+% Fin de page de garde}}}
+
+\begin{document}
+  \maketitle
+
+  ${0}
+endsnippet
+
+#################
+# DISPLAY CODES #
+#################
+
+snippet codepackages "Usepackages pour l'affichage d'un code informatique" b
+% Code informatique {{{
+\usepackage{listings}
+\usepackage{color}
+% }}}
+endsnippet
+
+snippet dispcode "Affichage d'un code informatique par Kodama" b
+\lstinputlisting[language=${1:C++}]{source_filename.cc}
+endsnippet
+
+snippet setcode "Paramétrage de l'affichage d'un code informatique" b
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\definecolor{mycyan}{rgb}{0.77,0.88,0.97}
+
+% Paramétrage de l'affichage de code {{{
+\lstset{ %
+  backgroundcolor=\color{mycyan},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,                    % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=${1:C++},                 % the language of the code
+  otherkeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,                       % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+} %}}}
+endsnippet
+
+snippet customc "Custom C" b
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+endsnippet
+# vim:ft=snippets:

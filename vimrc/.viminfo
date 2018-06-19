@@ -1,0 +1,3455 @@
+# Ce fichier viminfo a été généré par Vim 7.4.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0/\\emph
+
+# Dernier motif de recherche Substitue  :
+~MSle0~&\\emph
+
+# Dernières chaînes de substitution :
+$\\texttt
+
+# Historique ligne de commande (chronologie décroissante) :
+:q
+:wq
+:make
+:w
+:%s/\\emph/\\texttt
+:%s/\\emph/texttt
+:%s/begin{lstlisting\}/begin{lstlisting\}\[language=java\]
+:%s/begin\{lstlisting\}/begin\{lstlisting\}\[language=java\]
+:%s/\\begin\{lstlisting\}/\\begin\{lstlisting\}\[language=java\]
+:%s/lstlisting\}/lstlisting\}\[language=java\]
+:253
+:e Cours.tex
+:e :w
+:Make
+:e Makefile
+:e structure.tex
+:%s/subchapter/subsection
+:%s/subchapter/section
+:%s/section/chapter
+:e Resume_POO.tex
+:e makefile
+:%s/item\[o\]/item\[$\\bullet$\]
+:%s/item[o]/item[$\\bullet$]
+:e shader.vert
+:e! shader.frag
+:e shader.frag !
+:e shader.frag
+:e README.md
+:e oral.tex
+:e segmentation.tex
+:e modelisation.tex
+:e cover.tex
+:e oral.pdf
+:e beamercolorthemekodama.sty
+:W
+:%s/plot3d/plot
+:maker
+:amke
+:MAKE
+:272
+:%s/\$plot3d()\$/\\texttt{plot3d()}
+:%s/$plot3d()$/\\texttt{plot3d()}
+:%s/$plot32()$/\\texttt{plot3d()}
+:mak
+:264
+:285
+:.!:make
+:249
+:e fancytikzposter.sty
+:e ../rapport/Rapport.tex
+:e segmentation.pdf
+:e modelisation.pdf
+:183
+:e ../rapport/data/structure.tex
+:e test.c
+:e ../renardo/renardo.cc
+:e renardo.cc
+:e ./data/structure.tex
+:e Rapport.tex
+:%s/NAME\./$(NAME)\.
+:.,.+1!
+:%s/$</NAME
+:%S/$</NAME
+:e glossaire.dat
+:e Rapport.pdf
+:set t_Co?
+:makz
+:e ../car/car.cpp
+:e game.cpp
+:479
+:208
+:e ../car/car.hpp
+:e game.hpp
+:98
+:934
+:933
+:460
+:144
+:e ../menu/events.cpp
+:163
+:e ../coin/coin.hpp
+:e ../coin/coin.cpp
+:e ../menu/menu.cpp
+:e
+:197
+:172
+:109
+:%s/\.\.\/img
+:1072
+:e ../game/game.cpp
+:e car.cpp
+:196
+:e car.hpp
+:e ../game/game.hpp
+:173
+:130
+:%s/coin_02/coin
+:e game
+:776
+:e main.cpp
+:87
+:%s/NaN/NotaMedal
+:%s/
+:1026
+:744
+:967
+:979
+:741
+:742
+:716
+:788
+:214
+:e menu.cpp
+:e events.h
+:e events.cpp
+:e 
+:e gui_ids.h
+:%s/cockpit/GUI
+:167
+:240
+:168
+:241
+:%s/Grip/Mass
+:57
+:219
+:%s/grip/mass
+:128
+:e menu.h
+:456
+:661
+:356
+:656
+:388
+:372
+:666
+:363
+:658
+:99
+:883
+:882
+:192
+:721
+:624
+:115
+:%s/SAVE_VIT/VIT
+:38
+:%s/SAVE_vittranslation/VITTRANSLATION
+:%s/SAVE_vitrotation/VITROTATION
+:%s/VITROTATION/vitrotation
+:%s/VITTRANSLATION/vittranslation
+:606
+:110
+:113
+:284
+:e gameONECAM.cpp
+:821
+:533
+:418
+:36
+:w game.hpp
+:e gameTWOCAM.hpp
+:e CSceneNodeAnimatorCameraFPS.cpp
+:e CSceneNodeAnimatorCameraFPS.hpp
+:435
+:%s/\/\/!/\/\/
+:791
+:348
+:336
+:324
+:444
+:779
+:378
+:412
+:767
+:415
+:131
+:90
+:std::cout
+:50
+:463
+:374
+:404
+:718
+:458
+:234
+:403
+:242
+:e operations.cpp
+:e compute_hull.cpp
+:207
+:e operations.hpp
+:e myWindow.cpp
+:243
+:180
+:599
+:371
+:276
+:228
+:e menu.hpp
+:e coin.hpp
+:e coin.cpp
+:%s/\/..\/..\/data/PATH
+:%s/\/..\/..\/data\//PATH
+:%s/\/\.\.\/\.\.\/data/PATH
+:make prepare
+:make clean
+:e /home/kodama/Documents/Cours/Majeure/Projet/Rapport/Rapport.tex
+:e /home/kodama/Documents/Cours/Majeure/Projet/Rapport
+:345
+:145
+:68
+:53
+:27
+:%s/..\/img/.\/img
+:112
+:653
+:619
+:438
+:474
+:%s/3df/3d
+:120
+:63
+:148
+:65
+:135
+:152
+:127
+:%s/vec3/vector3df
+:64
+:602
+:33
+:580
+:288
+:256
+:154
+:114
+:143
+:199
+:362
+:86
+:e ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/game.hpp
+:306
+:e ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/game.cpp
+:%s/coin_silver/GUIcoin_void
+:%s/coin_blue/GUIcoin_blue
+:%s/coin_gold/GUIcoin_gold
+:312
+:309
+:%s/car/coin
+:.,.+1111111111111110w
+:%s/pickedCoins/PCpickedCoins
+:%s/Tcoins/TPCCoins
+:251
+:44
+:310
+:185
+:230
+:184
+:?scale
+:?cale
+:?setscale
+:19
+:218
+:259
+:119
+:e ../menu/Makefile
+:e main_test.cpp
+:q:q
+:125
+:e ../car/
+:%s/car_police/car_camaro
+:xq
+:177
+:196=:209
+:270
+:260
+:232
+:239
+:q!
+:129
+:106
+:94
+:67
+:56
+:43
+:31
+:20
+::
+:e Presentation.tex
+:88
+:142
+:e ../../../tutos/seance2/physique/main.cpp
+:! ls data/
+:!ls
+:79
+:?data
+:e ../../../video_game/src/game_modif/main.cpp
+:.,.+49!
+:e data/
+:21
+:e ../../project/game/main.cpp
+:?smgr->setTarget
+:?IMeshM
+:?Imeshm
+:117
+:?tris.md
+:e simple.cc
+:e gl-utils.cc
+:e graph.v.glsl
+:e compute_hull.hpp
+:72
+:m
+:e Test01.tex
+:?debug
+:e ../../../convex_hullOLD/project/src/compute_hull.cpp
+:e ../../../convex_hullOLD/project/src/compute_hull.hpp
+:w visualizer2.m
+:8
+:169
+:132
+:104
+:62
+:%s/struct sommet/class sommet
+:18
+:e mesh_skinned.hpp
+:e mesh_skinned.cpp
+:12
+:75
+:e src/
+:w visualizer1.m
+:w visualizer0.m
+:!matrix
+:e skeleton_geometry.cpp
+:233
+:e skeleton_geometry.hpp
+:97
+:e scene.cpp
+:!date
+:e scene.hpp
+:PluginInstall
+:source %
+:186
+:193
+:e .bashrcREAL
+:121
+:58
+:.q
+:e makefile_Kodama
+:e INSTALL
+:e src/main.cc
+:e data/blue_texture.pcx
+:e main.cc
+:e font-manager.cc
+:e font-manager.h
+:e reseau.cc
+:?active_fonts
+:287
+:e src/gKit/window.cpp
+:!make
+:?clear
+:?clearp
+:e! Rapport.tex
+:e Rapport.tex !
+:?cleardouble
+:.!
+:89
+:182
+:%s/fauxsc/textsc
+:!make prepare
+:!make clean
+:%s/pdflatex/xelatex
+:e mesh_parametric_cloth.cpp
+:e mesh_parametric_cloth.hpp
+:e ../../../../../tp_tissus_partie_2/project/src/cloth/mesh_parametric_cloth.hpp
+:e ../../../../../tp_tissus_partie_2/project/src/cloth/mesh_parametric_cloth.cpp
+:?delta
+:!uptime
+:!make -j8
+:!Make
+:e src/main.cpp
+:!clear && uptime
+:!make -j8 ray_tuto && (cd ./bin && ./ray_tuto && eog render.png )
+:w && !make -j8 ray_tuto && (cd ./bin && ./ray_tuto && eog render.png )
+:w !make -j8 ray_tuto && (cd ./bin && ./ray_tuto)
+:!make -j8 ray_tuto && (cd ./bin && ./ray_tuto)
+:!make ray_tuto && (cd ./bin && ./ray_tuto && eog render.png )
+:!Make ray_tuto && (cd ./bin && ./ray_tuto && eog render.png )
+:%s/  / 
+:%s/\\myfigure/\%\\myfigure
+:%s/\myfigure/\%\myfigure
+:%s/headLena/header
+:%s/echo -e/echo
+:%s/"^[/"\033
+:%s/"^[/\"\033
+:%s/\^[/\\033
+:%s/^[/\\033
+:%s/^[/\033
+:%s/echo "^/echo -e "^
+:%s/echo/echo -e
+:%s/===="/====^[[0m"
+:%s/"====/"^[[1m[[32m====
+:332
+:25
+:111
+:24
+:%s/\\dot/
+:%s/$\bullet$/
+:%s/$\\bullet$/
+:%s/\\dot/$\\bullet$
+:?\dot
+:%s/\dot/$\bullet$
+:176
+:54
+:40
+:66
+:e image_simple
+:e tga.cc
+:c
+:%s/,i) / 
+:%s/*pow(/*
+:e matrice.h
+:e vecteur.h
+:e TPCalibrage.h
+:s
+:e calibrage.cpp
+:e matrice.cpp
+:?for
+:%s for
+:! python2.7 9_TestCouleur.py
+:!p 9_TestCouleur.py
+:e uiConnectivity.py
+:e 8_Test.py
+:6
+:?text
+:?label
+:?vbrain_func
+:e 7_NeuropypeExample.py!
+:e 7_NeuropypeExample.py
+:?cmap
+:e label_coords.txt
+:e 6_NeuropypeExample.py
+:e 0_basics.py
+:91
+:9
+:511
+:? l_position
+:e ../elements/AtlasBase.py
+:e ../elements/elements.py
+:e ../vbrain.py
+:e 4_Connectivity.py
+:colorscheme kodamalight
+:colorscheme kolorkodama
+:e ~/Documents/MyPrograms/Cesure/C++/brain/src/local/scene/scene.cpp
+:%s/202/166
+:%s/202/208
+:%s/236/194
+:%s/254/233
+:%s/121/034
+:%s/45/63
+:%s/204/205
+:%s/111/017
+:%s/046/082
+:colorscheme pablo
+:colorscheme kolor
+:w kolorkodama.vim
+:colorscheme ron
+:colorscheme elflord
+:colorscheme desert
+:colorscheme zellner
+:colorscheme torte
+:colorscheme slate
+:colorscheme shine
+:colorscheme peachpuff
+:colorscheme murphy
+:colorscheme morning
+:colorscheme koehler
+:colorscheme delek
+:colorscheme default
+:coloscheme default
+:colorscheme blue
+:colorscheme darkblue
+:30008
+:?v 
+:30000
+:77144
+:77124
+:77125
+:e ../brain/basic-biology-of-the-brain.mtl
+:help c.vim
+:?nv
+:?/\*
+:?/*
+:?comment
+:!./vx
+:524
+:254
+:%s/  /  
+:?main
+:!./renardo
+:e kodamastyle.cls
+
+# Historique chaîne de recherche (chronologie décroissante) :
+? \\emph
+??\\emph
+??Dans la p
+? begin{lstlisting\}
+? begin\{lstlisting\}
+? \\begin\{lstlisting\}
+? lstlisting\}
+??lstlisting
+??myref
+??\\ref
+??cf
+??cf la section
+??une classe abstraite
+??jeu d'
+??glspl{attr
+??makeatother
+??structure
+??structure.tex
+??struc
+??hyper
+? subchapter
+? section
+? item\[o\]
+? item[o]
+??G
+? \<fancyhf\>
+??Amé
+? plot3d
+? \$plot3d()\$
+? $plot3d()$
+? $plot32()$
+??Con
+??myfigure
+??Impl
+??De
+??deboi
+??addlogo
+??inputenc
+? NAME\.
+? $<
+??gloss
+? \<Les\>
+??export
+??TERM
+? \<node\>
+??cout
+??ajout
+??Ajout
+??ajou
+??!!!!dd
+??!!!!
+??case 10
+??moveF
+??adversai
+??<<"IA
+??<<" IA
+??init_coins
+??gravité
+??jump
+??Gravité
+??KEY_K]
+??KEY_K
+??collision(
+??KEY_L
+??set_ai
+??game()
+??"{"
+??setw
+??{
+??bool move
+??moveFoes
+??move
+??moveFoes(
+??KEY_M
+??set_ai(
+??init_Tc
+??_K
+??_L
+??.getP
+??init_coins(
+??init_coins()
+??set
+??3
+??etape = 0
+??rand()
+??etpe = 0
+??collision
+??init_pl
+??init_
+??movement (
+??KEY_BACK
+??movement(
+??KEY_P
+??movement
+??openr
+??clear
+??cleard
+?/rapport/
+??img
+??vitt
+??locate
+? coin_02
+??initTpositions()
+??Initi
+??game(
+??_BACK
+??_ABCK
+??NCOINS
+??NCOINS >
+??exit(0)
+? NaN
+??PCpickedCoins = -1
+??PCpickedcoins = -1
+??PCpicked = -1
+??init_camera
+??std::to
+??saveTime
+??-10
+??(0,-10
+??saveT
+??digits
+??load_digits
+??init_d
+??receiver
+??driv
+??c_
+??gui
+??AI n
+??spinu
+??spin
+??check
+? cockpit
+??getC
+??getCar
+??MD
+? Grip
+??set_car(
+??Scale
+??scale
+??set_scale
+? grip
+??grip
+? \<meshscenenode\>
+??init_animators()
+??node
+??init_anim
+??init_an
+??initr
+??KEY_KEY_K
+??jumpC
+??int game(
+??score_i
+??increment
+? SAVE_VIT
+? SAVE_vittranslation
+? SAVE_vitrotation
+? VITROTATION
+? VITTRANSLATION
+??VIT
+??positionBeforeJump
+??SPACE
+??t\*
+??cin>>
+??t\*t
+??t*t
+??KEY_BA
+??KEY_SP
+??// jump
+??//cjump
+??//jump
+??###
+??device->r
+??keyMap
+??moveme
+??cin>>t
+??Tcamera
+??player->setP
+??switchCam(0
+??switchC
+??active_camera
+??BACK
+??BACKSP
+??animCamera
+??device
+? \/\/!
+??UTC
+??alias bashrc
+??speed
+??camera
+??camera (
+??camera(
+??std::cout
+??DEBUG
+??main
+??Création
+??création
+??KEY_C
+??KEY_
+??ctive
+??setac
+??setAc
+??camerasc
+??PCspeed
+??_SPA
+??premier
+??getE
+??myf
+??appl
+??useC
+? \/..\/..\/data
+? \/..\/..\/data\/
+? \/\.\.\/\.\.\/data
+? @$
+? ..\/img
+??init
+??time_ref_ms
+??time_new_ms
+??cos
+??moveCoins
+??cos(
+??r->PC
+??initreceiver
+??jumpCount
+??jum
+??receiver->
+??call_
+??cockp
+??call
+??3d
+? 3df
+? vec3
+??vec3
+??KEY_B
+? \<NCOINS\>
+??initrec
+? coin_silver
+? coin_blue
+??GUIc
+? coin_gold
+? car
+? pickedCoins
+? Tcoins
+??Tfoes
+??call_console
+??Tfo
+? scale
+? cale
+? setscale
+??setP
+??car_police
+? car_police
+??mario
+??chiffres_
+? \<vim\>
+? \<usecolortheme\>
+?//
+?/addCamera
+??Création d'un
+??tr
+??addo
+??pk3
+? \<include\>
+? data
+??data
+? smgr->setTarget
+? IMeshM
+? Imeshm
+? tris.md
+? debug
+??l.119
+?//}}
+? struct sommet
+??foldmethod
+??end()
+??parent_id
+??skeleton_id
+??draw_scene
+??skeleton_joint
+??sk_cylinder_p
+??mesh_cylin
+??mesh_cylinder_opengl.d
+?/localM
+? active_fonts
+??create
+? clear
+? clearp
+??clearp
+??cleardouble
+??cleardo
+? cleardouble
+??myfi
+??[L
+??fontspe
+? fauxsc
+? pdflatex
+? delta
+?   
+? \\myfigure
+? \myfigure
+? headLena
+? echo -e
+? "^[/"\033
+? "^[/\"\033
+? \^[/\\033
+? ^[/\\033
+? ^[/\033
+? echo "^
+? echo
+? ===="
+? "====
+? \\dot
+? \<renewcommand\>
+? $\bullet$
+? $\\bullet$
+? \dot
+? \\\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*{{{\/
+??10
+? \<B\>
+? ,i) 
+? *pow(
+? for
+? text
+? label
+? vbrain_func
+? cmap
+?  l_position
+? 202
+? 236
+? 254
+? 121
+? 45
+? 204
+? 111
+? 046
+? v 
+? nv
+? /\*
+? /*
+? comment
+? main
+? load_texture
+? chapter
+? thesection
+? apt-get
+? \.sh
+? .sh
+? :]
+? archives-box-caption
+? container-fluid
+? col-lg-4
+? archives
+? 17.jpg
+? ::sele
+? \:\/\/89\.157\.55\.47
+? \~
+? accueil
+? header.archives
+? \.\.
+? ..
+? version
+? \/fs02\/share\/users\/axel.fraysse\/home\/Documents\/TP_OpenGl_TSI\/tp_opengl \/programme_10
+? index.html
+? 	
+? \<Il\>
+? $(PROJET)
+? $(PROJET).tex
+? Kevin
+? kevin
+? 15pt
+? 1.5cm
+? 1cm
+? 2cm
+? newacronym
+? %
+?/Gamm
+? agenda
+? AGENDA
+? string 
+? char \*
+? *string
+? char *
+? int  set
+? int set
+? monrdv->
+? monrdv\.
+? monrdv.
+? rdv monrdv
+? monrdv
+? ()
+? wait(-1) != NULL
+? Wait
+?/make_box
+? * 
+? end{figure}
+? begin{figure}
+? {figure}
+? includegraphics\[height=10cm\]
+? includegraphics[height=10cm]
+? includegraphics
+? includegraphics[h/includegraphics[477,876][1588,112][h
+? graphics[h/graphics[477,876][1588,112][h
+? graphics[/graphics[477,876][1588,112][
+? Captures2\/Picture
+? Captures\/Picture
+? n{figure}
+? {..\/exercice-neurones\/Extrait
+? \/\/
+? ..\/exercice-neurones\/Extrait
+? Picture0
+? \<TAILLE_COUCHE_SORTIE\>
+? \<BRUIT\>
+?/BRUIT
+? WEXITSTATUS
+? exit
+? exercice_1_a
+? fragment_barriere
+? triangle_barriere
+? tous_barriere
+?/main
+? tracerSegment
+? \<Introduction\>
+??tableof
+?/shader_
+?/glU
+?/tex_c
+?/sha
+?/vert
+?/set nu
+?  = 
+? "
+? \<translation\>
+? \<première\>
+?/fl
+? ê
+? à
+? é
+?/save_image
+?/.pp
+?/image.p
+?/atoi
+? alt="La plaq
+? id="tab-top10">
+? alt="Num
+? h3
+? \/_ressources\/\.\.\/
+? \.\/
+? .\/
+? \.\.\/\.\.\/
+? "..\/
+? AllowOverride
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	CHAR	0
+	\texttt{a} appelle \texttt{print()},
+""1	LINE	0
+	   Ces deux notions liées permettent d'utiliser les classes et méthodes des classes-mères sans avoir nécessairement à les redéfinir
+"2	LINE	0
+	   %}}} section les_subtilit_s_inattendues_du_polymorphisme (end)
+"3	LINE	0
+	   Je vous l'ai dit plus haut, le polymorphisme n'a d'égal à son utilité que les risques liés à son utilisation inattentive.
+"4	LINE	0
+	   \label{sec:les_subtilit_s_inattendues_du_polymorphisme}
+"5	LINE	0
+	   \section{Les subtilités inattendues du polymorphisme} %{{{
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	LINE	0
+	    \colorlet{fgcolor}{save}
+"a	CHAR	0
+	
+	  pastetoggle=<F10>
+"-	CHAR	0
+	h
+
+# Marques dans le fichier :
+'A  4  0  ~/Documents/Cours/MSO/MSO_Becker/makefile
+'J  8  32  /var/www/_ressources/php/initErreur.php
+'0  1  0  ~/Documents/ShellFiles/newLinux/newLinux.sh
+'1  701  3  ~/Documents/Cours/POO/rapport/Cours.tex
+'2  685  516  ~/Documents/Cours/POO/rapport/Cours.tex
+'3  788  12  ~/Documents/Cours/POO/rapport/Cours.tex
+'4  11  1  ~/Documents/Cours/POO/rapport/Makefile
+'5  12  35  ~/Documents/Cours/POO/rapport/Makefile
+'6  39  0  ~/Documents/Cours/POO/rapport/Cours.tex
+'7  48  0  ~/Documents/Cours/POO/rapport/structure.tex
+'8  6  9  ~/Documents/Cours/POO/rapport/Makefile
+'9  609  32  ~/Documents/Cours/POO/Cours/Resume_POO.tex
+
+# Liste de sauts (le plus récent en premier) :
+-'  1  0  ~/Documents/ShellFiles/newLinux/newLinux.sh
+-'  701  3  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  563  3  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  711  9  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  549  4  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  557  4  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  745  8  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  749  8  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  244  0  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  515  111  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  286  0  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  421  0  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  458  763  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  465  229  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  469  89  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  519  395  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  529  92  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  542  105  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  586  70  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  598  186  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  605  52  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  637  106  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  642  27  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  645  30  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  647  30  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  663  340  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  665  177  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  676  94  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  739  169  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  741  79  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  193  87  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  701  3  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  563  3  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  711  9  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  549  4  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  557  4  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  745  8  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  749  8  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  244  0  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  515  111  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  286  0  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  421  0  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  458  763  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  465  229  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  469  89  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  519  395  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  529  92  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  542  105  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  586  70  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  598  186  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  605  52  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  637  106  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  642  27  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  645  30  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  647  30  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  663  340  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  665  177  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  676  94  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  739  169  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  741  79  ~/Documents/Cours/POO/rapport/Cours.tex
+-'  193  87  ~/Documents/Cours/POO/rapport/Cours.tex
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/Documents/ShellFiles/newLinux/newLinux.sh
+	"	1	0
+
+> ~/Documents/Cours/POO/rapport/Cours.tex
+	"	701	3
+	^	563	11
+	.	563	0
+	+	782	51
+	+	788	0
+	+	782	0
+	+	788	29
+	+	678	256
+	+	727	0
+	+	727	0
+	+	699	71
+	+	696	0
+	+	696	0
+	+	696	128
+	+	696	0
+	+	695	0
+	+	695	0
+	+	683	289
+	+	694	0
+	+	694	0
+	+	684	36
+	+	685	495
+	+	288	130
+	+	685	503
+	+	91	78
+	+	598	256
+	+	542	58
+	+	469	539
+	+	437	79
+	+	434	93
+	+	288	154
+	+	437	78
+	+	434	92
+	+	434	0
+	+	434	161
+	+	437	0
+	+	437	112
+	+	434	0
+	+	426	38
+	+	434	103
+	+	437	88
+	+	434	102
+	+	426	0
+	+	687	264
+	+	687	5
+	+	688	153
+	+	688	868
+	+	688	191
+	+	686	0
+	+	685	521
+	+	687	325
+	+	689	892
+	+	691	0
+	+	688	736
+	+	693	7
+	+	691	232
+	+	693	348
+	+	691	94
+	+	709	0
+	+	709	0
+	+	702	10
+	+	701	0
+	+	709	11
+	+	707	159
+	+	715	0
+	+	714	0
+	+	714	0
+	+	711	6
+	+	712	10
+	+	713	270
+	+	426	38
+	+	421	242
+	+	402	59
+	+	349	103
+	+	342	103
+	+	267	28
+	+	242	321
+	+	240	159
+	+	204	255
+	+	193	274
+	+	193	87
+	+	663	340
+	+	519	395
+	+	515	116
+	+	244	0
+	+	286	0
+	+	421	0
+	+	244	0
+	+	286	0
+	+	421	0
+	+	529	0
+	+	549	0
+	+	701	17
+	+	711	9
+	+	727	136
+	+	721	27
+	+	727	0
+	+	726	0
+	+	721	17
+	+	724	33
+	+	725	383
+	+	697	10
+	+	563	0
+	a	701	1
+
+> ~/Documents/Cours/POO/rapport/:w
+	"	1	0
+
+> ~/Documents/Cours/POO/rapport/Makefile
+	"	11	1
+	^	11	48
+	.	11	47
+	+	6	10
+	+	11	15
+	+	12	39
+	+	8	12
+	+	6	0
+	+	5	0
+	+	8	33
+	+	12	36
+	+	11	32
+	+	4	0
+	+	11	47
+
+> ~/Documents/Cours/POO/rapport/structure.tex
+	"	394	79
+	^	394	83
+	.	394	0
+	+	48	0
+	+	394	0
+
+> ~/Documents/Cours/POO/Cours/Makefile
+	"	32	2
+	^	13	21
+	.	13	20
+	+	12	1
+	+	12	83
+	+	13	20
+
+> ~/Documents/Cours/POO/Cours/Resume_POO.tex
+	"	609	32
+	^	513	44
+	.	513	43
+	+	260	6
+	+	267	6
+	+	274	6
+	+	273	134
+	+	273	370
+	+	282	160
+	+	307	79
+	+	309	136
+	+	311	215
+	+	327	71
+	+	330	0
+	+	365	53
+	+	399	0
+	+	405	71
+	+	405	266
+	+	405	458
+	+	448	266
+	+	467	313
+	+	471	174
+	+	490	87
+	+	490	44
+	+	488	0
+	+	489	0
+	+	513	43
+
+> ~/Documents/Cours/POO/Cours/makefile
+	"	1	0
+
+> ~/Documents/Cours/Projet_Majeure/posterMeme/Makefile
+	"	13	2
+	^	13	3
+	.	13	2
+	+	10	2
+	+	11	2
+	+	13	2
+
+> ~/Documents/MyPrograms/dindinx/ETI5/GPU/simple/simple.cc
+	"	132	0
+	^	83	2
+	.	82	0
+	+	82	0
+	+	82	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/GPU/simple/shader.frag
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/GPU/simple/shader.vert
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/geometry_shader/geometry-shader/src/main.cc
+	"	45	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/final/src/modelisation/README.md
+	"	2	8
+	.	2	0
+	+	2	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/final/src/modelisation/main.py
+	"	153	0
+	.	174	43
+	+	174	43
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/oral/segmentation.tex
+	"	234	26
+	^	213	40
+	.	213	0
+	+	31	0
+	+	40	0
+	+	37	31
+	+	38	48
+	+	39	51
+	+	43	0
+	+	34	0
+	+	48	0
+	+	48	0
+	+	42	0
+	+	41	0
+	+	44	57
+	+	45	101
+	+	47	24
+	+	46	10
+	+	69	0
+	+	68	0
+	+	67	48
+	+	66	21
+	+	65	22
+	+	67	22
+	+	119	19
+	+	128	28
+	+	129	17
+	+	160	54
+	+	171	0
+	+	170	82
+	+	45	14
+	+	45	14
+	+	172	0
+	+	169	21
+	+	197	0
+	+	196	82
+	+	198	0
+	+	213	50
+	+	216	0
+	+	215	42
+	+	179	40
+	+	181	40
+	+	147	35
+	+	149	35
+	+	213	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/oral/beamercolorthemekodama.sty
+	"	63	2
+	^	63	37
+	.	63	30
+	+	48	34
+	+	49	34
+	+	48	34
+	+	88	33
+	+	63	30
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/oral/oral.pdf
+	"	1	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/oral/oral.tex
+	"	26	0
+	^	25	1
+	.	26	0
+	+	29	0
+	+	29	66
+	+	29	0
+	+	29	0
+	+	29	0
+	+	32	18
+	+	29	0
+	+	23	57
+	+	11	20
+	+	10	20
+	+	19	16
+	+	30	0
+	+	23	11
+	+	24	14
+	+	27	33
+	+	25	0
+	+	26	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/oral/cover.tex
+	"	34	21
+	^	34	22
+	.	34	21
+	+	28	0
+	+	36	0
+	+	35	130
+	+	33	144
+	+	37	0
+	+	34	21
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/oral/modelisation.tex
+	"	127	6
+	^	30	22
+	.	127	41
+	+	31	0
+	+	30	21
+	+	125	41
+	+	127	41
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/poster/segmentation.tex
+	"	389	4
+	^	389	396
+	.	389	394
+	+	352	0
+	+	328	0
+	+	352	0
+	+	362	0
+	+	386	2
+	+	328	20
+	+	362	21
+	+	380	79
+	+	346	82
+	+	375	80
+	+	341	82
+	+	398	0
+	+	395	144
+	+	375	72
+	+	341	83
+	+	328	24
+	+	362	25
+	+	395	418
+	+	397	268
+	+	67	36
+	+	77	0
+	+	74	0
+	+	75	0
+	+	67	38
+	+	68	22
+	+	75	35
+	+	68	27
+	+	75	35
+	+	68	34
+	+	75	34
+	+	68	32
+	+	75	0
+	+	306	0
+	+	306	0
+	+	309	84
+	+	308	40
+	+	306	0
+	+	296	0
+	+	249	30
+	+	281	30
+	+	281	12
+	+	281	0
+	+	281	0
+	+	251	0
+	+	251	0
+	+	283	0
+	+	283	0
+	+	283	0
+	+	283	12
+	+	283	0
+	+	283	0
+	+	283	11
+	+	281	22
+	+	283	0
+	+	272	0
+	+	264	8
+	+	283	0
+	+	255	0
+	+	254	0
+	+	256	0
+	+	264	0
+	+	263	0
+	+	265	0
+	+	264	8
+	+	273	8
+	+	272	0
+	+	274	0
+	+	246	0
+	+	243	0
+	+	245	0
+	+	247	0
+	+	283	0
+	+	284	0
+	+	281	9
+	+	331	314
+	+	335	375
+	+	365	499
+	+	365	481
+	+	369	142
+	+	222	110
+	+	222	207
+	+	238	272
+	+	294	164
+	+	395	381
+	+	365	70
+	+	365	228
+	+	365	502
+	+	387	0
+	+	392	0
+	+	391	0
+	+	392	0
+	+	387	29
+	+	393	0
+	+	399	0
+	+	391	0
+	+	281	0
+	+	266	0
+	+	272	0
+	+	275	0
+	+	389	394
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/poster/modelisation.tex
+	"	350	4
+	^	342	189
+	.	350	187
+	+	99	0
+	+	106	17
+	+	16	59
+	+	59	4
+	+	98	25
+	+	98	0
+	+	98	0
+	+	11	21
+	+	13	26
+	+	182	2
+	+	154	94
+	+	153	0
+	+	154	0
+	+	63	0
+	+	68	36
+	+	66	36
+	+	160	52
+	+	208	0
+	+	67	0
+	+	68	0
+	+	225	0
+	+	222	233
+	+	225	0
+	+	224	204
+	+	225	0
+	+	222	235
+	+	233	0
+	+	236	2
+	+	231	83
+	+	233	180
+	+	232	0
+	+	233	324
+	+	231	135
+	+	339	1
+	+	340	28
+	+	345	0
+	+	342	284
+	+	353	0
+	+	350	43
+	+	344	249
+	+	352	155
+	+	235	104
+	+	239	49
+	+	242	370
+	+	244	0
+	+	246	315
+	+	250	0
+	+	252	79
+	+	253	0
+	+	252	76
+	+	257	76
+	+	263	76
+	+	268	76
+	+	247	0
+	+	248	0
+	+	260	5
+	+	282	24
+	+	285	351
+	+	289	291
+	+	300	79
+	+	295	77
+	+	300	72
+	+	295	65
+	+	296	0
+	+	285	0
+	+	316	46
+	+	319	341
+	+	319	0
+	+	319	358
+	+	323	295
+	+	323	295
+	+	328	77
+	+	333	0
+	+	334	0
+	+	333	76
+	+	289	19
+	+	289	0
+	+	289	486
+	+	342	188
+	+	350	228
+	+	328	79
+	+	333	39
+	+	328	39
+	+	330	0
+	+	325	26
+	+	333	39
+	+	328	39
+	+	222	134
+	+	224	131
+	+	285	81
+	+	285	0
+	+	285	127
+	+	285	0
+	+	290	0
+	+	289	585
+	+	319	142
+	+	323	227
+	+	344	243
+	+	342	189
+	+	350	187
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/rapport/data/structure.tex
+	"	96	0
+	.	62	0
+	+	63	0
+	+	52	0
+	+	52	0
+	+	68	0
+	+	68	18
+	+	68	11
+	+	68	20
+	+	68	22
+	+	51	0
+	+	68	0
+	+	62	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/poster/fancytikzposter.sty
+	"	24	24
+	.	26	0
+	+	1420	0
+	+	1420	0
+	+	1420	0
+	+	26	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/rapport/Rapport.tex
+	"	120	11
+	.	140	0
+	+	22	27
+	+	54	0
+	+	70	0
+	+	144	0
+	+	319	0
+	+	321	0
+	+	323	0
+	+	330	0
+	+	332	0
+	+	334	0
+	+	336	0
+	+	99	0
+	+	102	0
+	+	2	0
+	+	64	30
+	+	84	0
+	+	85	3
+	+	100	3
+	+	144	0
+	+	144	35
+	+	144	0
+	+	144	0
+	+	98	0
+	+	144	0
+	+	144	0
+	+	144	0
+	+	144	0
+	+	102	93
+	+	104	107
+	+	104	131
+	+	102	48
+	+	105	0
+	+	144	0
+	+	138	0
+	+	139	0
+	+	141	0
+	+	145	0
+	+	111	36
+	+	180	15
+	+	33	8
+	+	34	0
+	+	31	0
+	+	42	13
+	+	180	57
+	+	140	0
+	+	140	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/poster/segmentation.pdf
+	"	380	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/poster/Makefile
+	"	9	0
+	.	9	0
+	+	12	1
+	+	10	1
+	+	13	3
+	+	11	3
+	+	10	3
+	+	9	0
+	+	9	3
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/poster/modelisation.pdf
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/multiple3/Makefile
+	"	5	4
+	^	6	8
+	.	5	4
+	+	1	8
+	+	4	0
+	+	3	12
+	+	4	0
+	+	6	7
+	+	5	4
+
+> ~/Documents/MyPrograms/dindinx/multiple3/test.c
+	"	40	11
+	^	18	28
+	.	12	12
+	+	4	0
+	+	26	0
+	+	4	0
+	+	3	17
+	+	25	0
+	+	14	7
+	+	24	0
+	+	24	18
+	+	11	11
+	+	21	11
+	+	24	15
+	+	14	17
+	+	24	0
+	+	23	17
+	+	5	36
+	+	27	0
+	+	29	35
+	+	48	0
+	+	48	28
+	+	32	0
+	+	48	0
+	+	34	7
+	+	38	0
+	+	38	0
+	+	34	39
+	+	38	0
+	+	37	9
+	+	34	29
+	+	40	7
+	+	46	0
+	+	44	29
+	+	46	3
+	+	47	14
+	+	37	9
+	+	43	39
+	+	45	0
+	+	42	35
+	+	42	0
+	+	6	21
+	+	57	0
+	+	56	25
+	+	54	0
+	+	56	0
+	+	55	21
+	+	42	47
+	+	12	13
+	+	23	17
+	+	42	0
+	+	16	22
+	+	42	0
+	+	16	23
+	+	13	13
+	+	16	0
+	+	14	33
+	+	17	0
+	+	20	0
+	+	16	10
+	+	22	22
+	+	18	27
+	+	12	12
+
+> ~/Documents/MyPrograms/dindinx/renardo/renardo.cc
+	"	59	0
+
+> ~/Documents/MyPrograms/dindinx/renardo/Makefile
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/renardo/renardo
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/README.md
+	"	1	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/rapport/Makefile
+	"	13	1
+	^	11	17
+	.	13	0
+	+	1	21
+	+	8	2
+	+	9	0
+	+	11	57
+	+	13	0
+	+	11	15
+	+	13	0
+	+	11	27
+	+	3	16
+	+	11	15
+	+	8	20
+	+	3	19
+	+	11	15
+	+	11	1
+	+	11	82
+	+	11	15
+	+	11	15
+	+	12	0
+	+	13	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/rapport/glossaire.dat
+	"	6	4
+	^	6	5
+	.	6	4
+	+	7	0
+	+	1	29
+	+	3	19
+	+	4	35
+	+	5	4
+	+	6	4
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/rapport/structure.tex
+	"	76	0
+	^	64	13
+	.	76	0
+	+	48	0
+	+	76	34
+	+	77	0
+	+	52	0
+	+	53	0
+	+	62	18
+	+	64	13
+	+	67	0
+	+	76	0
+
+> ~/Documents/Cours/Projet_Majeure/projet_majeure/rapport/Rapport.pdf
+	"	1	0
+
+> ~/.bashrc
+	"	185	27
+	^	185	28
+	.	185	27
+	+	70	111
+	+	186	30
+	+	188	0
+	+	183	26
+	+	183	0
+	+	191	10
+	+	183	18
+	+	183	33
+	+	183	19
+	+	159	23
+	+	168	15
+	+	181	1
+	+	168	19
+	+	183	0
+	+	183	12
+	+	130	2
+	+	183	12
+	+	190	15
+	+	183	15
+	+	73	0
+	+	72	0
+	+	73	0
+	+	72	27
+	+	146	0
+	+	141	14
+	+	144	29
+	+	143	25
+	+	144	2
+	+	142	3
+	+	143	12
+	+	144	6
+	+	143	12
+	+	141	14
+	+	143	23
+	+	144	23
+	+	143	40
+	+	159	0
+	+	119	0
+	+	118	40
+	+	117	15
+	+	183	50
+	+	168	0
+	+	156	0
+	+	181	0
+	+	161	0
+	+	183	0
+	+	172	0
+	+	183	0
+	+	179	0
+	+	183	0
+	+	174	0
+	+	183	0
+	+	172	0
+	+	183	0
+	+	171	0
+	+	172	0
+	+	173	0
+	+	183	0
+	+	163	0
+	+	183	0
+	+	160	0
+	+	182	0
+	+	183	0
+	+	164	0
+	+	183	0
+	+	147	0
+	+	148	0
+	+	183	0
+	+	154	0
+	+	183	0
+	+	157	0
+	+	183	0
+	+	155	0
+	+	183	0
+	+	176	0
+	+	183	0
+	+	158	0
+	+	183	0
+	+	170	0
+	+	183	0
+	+	162	0
+	+	183	0
+	+	165	0
+	+	183	0
+	+	167	0
+	+	183	0
+	+	166	0
+	+	183	0
+	+	179	0
+	+	183	0
+	+	175	0
+	+	183	0
+	+	180	0
+	+	183	0
+	+	179	0
+	+	183	0
+	+	169	0
+	+	183	0
+	+	179	0
+	+	185	27
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/Makefile
+	"	1	33
+	^	4	81
+	.	4	81
+	+	4	81
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/main.cpp
+	"	22	40
+	^	22	41
+	.	22	40
+	+	1	0
+	+	28	0
+	+	27	10
+	+	8	18
+	+	8	0
+	+	23	21
+	+	7	0
+	+	9	24
+	+	23	39
+	+	23	30
+	+	8	25
+	+	23	20
+	+	23	20
+	+	23	20
+	+	23	24
+	+	23	19
+	+	23	30
+	+	23	17
+	+	25	9
+	+	23	20
+	+	23	17
+	+	25	9
+	+	23	19
+	+	23	20
+	+	25	8
+	+	23	19
+	+	24	4
+	+	26	0
+	+	23	6
+	+	11	0
+	+	12	0
+	+	11	12
+	+	11	0
+	+	21	1
+	+	20	30
+	+	22	40
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/car/car.cpp
+	"	156	7
+	^	156	8
+	.	156	7
+	+	212	10
+	+	212	89
+	+	212	81
+	+	212	60
+	+	212	17
+	+	212	28
+	+	212	0
+	+	212	72
+	+	212	7
+	+	212	32
+	+	212	15
+	+	212	12
+	+	212	25
+	+	212	0
+	+	212	39
+	+	212	15
+	+	212	46
+	+	212	67
+	+	212	20
+	+	212	2
+	+	212	5
+	+	212	0
+	+	212	44
+	+	212	5
+	+	212	5
+	+	212	5
+	+	212	5
+	+	212	45
+	+	212	2
+	+	212	0
+	+	212	0
+	+	212	18
+	+	212	0
+	+	212	0
+	+	212	66
+	+	212	34
+	+	212	0
+	+	140	0
+	+	212	2
+	+	212	36
+	+	212	0
+	+	204	0
+	+	212	0
+	+	204	0
+	+	204	48
+	+	204	44
+	+	204	9
+	+	212	0
+	+	212	1
+	+	212	0
+	+	204	0
+	+	212	0
+	+	209	0
+	+	212	0
+	+	204	25
+	+	209	0
+	+	205	57
+	+	208	0
+	+	208	0
+	+	204	0
+	+	195	22
+	+	204	60
+	+	138	0
+	+	140	0
+	+	141	3
+	+	144	0
+	+	143	53
+	+	141	95
+	+	204	0
+	+	207	31
+	+	203	0
+	+	209	0
+	+	197	0
+	+	200	0
+	+	97	3
+	+	136	3
+	+	193	0
+	+	193	38
+	+	193	70
+	+	193	0
+	+	22	0
+	+	23	0
+	+	22	71
+	+	22	22
+	+	193	0
+	+	34	0
+	+	35	0
+	+	22	0
+	+	133	23
+	+	142	28
+	+	192	10
+	+	183	7
+	+	97	2
+	+	35	20
+	+	7	16
+	+	8	18
+	+	34	0
+	+	35	0
+	+	184	7
+	+	156	7
+	j	88	15
+	m	88	15
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017 (2)/src/car/car.cpp
+	"	156	7
+	^	156	8
+	.	156	7
+	+	184	0
+	+	156	7
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/game.cpp
+	"	789	17
+	^	856	48
+	.	856	47
+	+	1156	34
+	+	333	91
+	+	1161	28
+	+	292	3
+	+	178	0
+	+	158	47
+	+	158	47
+	+	159	24
+	+	160	30
+	+	888	20
+	+	160	33
+	+	158	0
+	+	888	20
+	+	178	3
+	+	161	0
+	+	178	0
+	+	163	27
+	+	41	16
+	+	476	0
+	+	476	9
+	+	41	4
+	+	163	15
+	+	163	25
+	+	178	28
+	+	165	13
+	+	178	0
+	+	178	0
+	+	178	21
+	+	170	0
+	+	178	0
+	+	169	31
+	+	176	0
+	+	164	0
+	+	174	0
+	+	167	37
+	+	168	0
+	+	161	24
+	+	889	0
+	+	899	0
+	+	895	0
+	+	888	20
+	+	160	0
+	+	482	5
+	+	483	0
+	+	1161	0
+	+	1161	23
+	+	1161	23
+	+	1154	0
+	+	1154	23
+	+	1154	23
+	+	621	3
+	+	625	16
+	+	637	13
+	+	568	3
+	+	574	15
+	+	617	13
+	+	161	3
+	+	177	3
+	+	41	18
+	+	333	87
+	+	600	18
+	+	41	23
+	+	42	0
+	+	40	18
+	+	476	0
+	+	333	88
+	+	335	86
+	+	316	92
+	+	318	86
+	+	335	87
+	+	937	9
+	+	937	11
+	+	937	62
+	+	937	0
+	+	225	0
+	+	254	0
+	+	254	0
+	+	270	32
+	+	270	0
+	+	270	13
+	+	270	11
+	+	270	32
+	+	270	0
+	+	270	27
+	+	270	29
+	+	270	0
+	+	270	0
+	+	254	0
+	+	254	3
+	+	270	5
+	+	254	0
+	+	255	0
+	+	937	1
+	+	208	48
+	+	479	42
+	+	208	43
+	+	479	43
+	+	860	39
+	+	862	15
+	+	856	47
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/rapport/Makefile
+	"	42	16
+	^	42	17
+	.	42	17
+	+	15	16
+	+	42	17
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/rapport/Rapport.tex
+	"	207	123
+	^	207	124
+	.	207	123
+	+	108	23
+	+	126	14
+	+	105	95
+	+	107	71
+	+	158	0
+	+	141	198
+	+	141	77
+	+	147	27
+	+	140	18
+	+	149	248
+	+	157	0
+	+	154	19
+	+	156	20
+	+	154	0
+	+	154	0
+	+	153	17
+	+	154	0
+	+	147	0
+	+	144	2
+	+	146	29
+	+	159	0
+	+	178	0
+	+	160	25
+	+	177	3
+	+	177	0
+	+	210	0
+	+	209	3
+	+	180	38
+	+	179	37
+	+	208	5
+	+	214	282
+	+	216	270
+	+	214	102
+	+	177	0
+	+	164	151
+	+	173	0
+	+	169	38
+	+	172	86
+	+	176	152
+	+	30	16
+	+	176	2
+	+	187	400
+	+	138	18
+	+	17	0
+	+	191	348
+	+	197	282
+	+	197	180
+	+	197	71
+	+	197	22
+	+	197	108
+	+	197	0
+	+	43	0
+	+	44	32
+	+	43	35
+	+	208	151
+	+	205	484
+	+	208	0
+	+	205	392
+	+	207	123
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/events.cpp
+	"	239	21
+	^	237	29
+	.	239	21
+	+	294	0
+	+	239	21
+	+	240	27
+	+	241	0
+	+	242	10
+	+	238	0
+	+	237	28
+	+	239	21
+	+	240	27
+	+	239	21
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/game.hpp
+	"	48	27
+	^	48	28
+	.	48	27
+	+	60	0
+	+	49	49
+	+	60	10
+	+	85	40
+	+	11	21
+	+	50	31
+	+	85	46
+	+	50	22
+	+	39	7
+	+	40	18
+	+	39	17
+	+	56	29
+	+	14	15
+	+	55	0
+	+	51	0
+	+	41	16
+	+	44	17
+	+	46	18
+	+	52	18
+	+	78	0
+	+	54	0
+	+	53	19
+	+	46	24
+	+	46	0
+	+	46	0
+	+	46	23
+	+	46	0
+	+	47	13
+	+	46	7
+	+	47	21
+	+	77	34
+	+	14	15
+	+	42	24
+	+	43	34
+	+	46	2
+	+	83	0
+	+	83	1
+	+	83	58
+	+	36	0
+	+	28	0
+	+	57	16
+	+	58	19
+	+	28	17
+	+	28	17
+	+	4	14
+	+	12	4
+	+	14	16
+	+	21	4
+	+	26	24
+	+	31	4
+	+	28	12
+	+	29	0
+	+	31	0
+	+	57	16
+	+	58	19
+	+	59	1
+	+	60	0
+	+	87	58
+	+	86	84
+	+	87	42
+	+	86	68
+	+	83	0
+	+	59	13
+	+	60	0
+	+	75	0
+	+	91	32
+	+	64	20
+	+	46	0
+	+	38	0
+	+	65	15
+	+	67	37
+	+	68	20
+	+	70	65
+	+	71	62
+	+	44	7
+	+	71	0
+	+	44	0
+	+	72	32
+	+	40	2
+	+	84	0
+	+	84	59
+	+	92	3
+	+	23	44
+	+	24	0
+	+	25	0
+	+	92	4
+	+	14	0
+	+	29	23
+	+	53	4
+	+	54	4
+	+	29	0
+	+	27	15
+	+	14	15
+	+	85	0
+	+	14	15
+	+	75	5
+	+	76	0
+	+	76	0
+	+	75	2
+	+	48	27
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/car/car.hpp
+	"	64	0
+	^	53	60
+	.	53	34
+	+	62	30
+	+	43	24
+	+	33	5
+	+	34	5
+	+	35	11
+	+	49	22
+	+	50	141
+	+	49	26
+	+	61	23
+	+	42	90
+	+	61	14
+	+	20	0
+	+	61	24
+	+	60	23
+	+	39	0
+	+	50	0
+	+	39	0
+	+	41	84
+	+	41	0
+	+	33	0
+	+	42	0
+	+	39	0
+	+	36	38
+	+	37	32
+	+	37	12
+	+	51	15
+	+	22	0
+	+	23	20
+	+	26	0
+	+	25	24
+	+	63	0
+	+	52	20
+	+	26	1
+	+	36	30
+	+	37	24
+	+	36	27
+	+	37	27
+	+	36	27
+	+	8	16
+	+	37	0
+	+	36	31
+	+	52	0
+	+	37	12
+	+	39	28
+	+	66	28
+	+	9	18
+	+	66	2
+	+	67	35
+	+	52	1
+	+	52	20
+	+	36	8
+	+	39	0
+	+	53	8
+	+	53	34
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/menu.cpp
+	"	144	0
+	^	249	47
+	.	249	46
+	+	56	0
+	+	7	18
+	+	56	74
+	+	57	70
+	+	58	66
+	+	180	57
+	+	184	0
+	+	180	46
+	+	180	23
+	+	180	14
+	+	184	2
+	+	182	4
+	+	184	0
+	+	184	0
+	+	184	13
+	+	184	44
+	+	184	3
+	+	183	0
+	+	182	36
+	+	210	69
+	+	25	6
+	+	176	9
+	+	235	12
+	+	166	0
+	+	236	14
+	+	65	0
+	+	127	0
+	+	65	0
+	+	126	0
+	+	65	0
+	+	126	0
+	+	184	0
+	+	213	68
+	+	55	74
+	+	56	70
+	+	57	66
+	+	55	48
+	+	56	70
+	+	57	66
+	+	56	70
+	+	57	66
+	+	65	0
+	+	64	29
+	+	255	159
+	+	76	26
+	+	69	108
+	+	69	0
+	+	181	44
+	+	177	9
+	+	238	11
+	+	166	0
+	+	238	0
+	+	164	0
+	+	165	2
+	+	106	0
+	+	106	163
+	+	131	66
+	+	214	83
+	+	216	0
+	+	220	36
+	+	245	0
+	+	220	0
+	+	262	0
+	+	246	100
+	+	215	21
+	+	262	57
+	+	214	69
+	+	246	34
+	+	246	34
+	+	247	0
+	+	251	16
+	+	249	0
+	+	251	0
+	+	250	0
+	+	249	46
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/coin/coin.cpp
+	"	23	0
+	^	168	44
+	.	30	28
+	+	69	16
+	+	66	17
+	+	69	0
+	+	120	0
+	+	116	10
+	+	137	0
+	+	137	0
+	+	8	23
+	+	137	0
+	+	135	32
+	+	171	0
+	+	171	0
+	+	7	17
+	+	171	0
+	+	170	43
+	+	153	0
+	+	142	63
+	+	143	0
+	+	144	53
+	+	165	72
+	+	155	53
+	+	69	15
+	+	116	33
+	+	121	3
+	+	134	18
+	+	170	17
+	+	135	24
+	+	134	38
+	+	165	49
+	+	144	0
+	+	134	14
+	+	134	29
+	+	134	21
+	+	9	17
+	+	69	0
+	+	23	33
+	+	23	33
+	+	23	43
+	+	23	45
+	+	139	25
+	+	170	26
+	+	171	0
+	+	170	16
+	+	141	30
+	+	23	51
+	+	164	66
+	+	136	71
+	+	134	40
+	+	136	46
+	+	164	54
+	+	162	47
+	+	160	26
+	+	156	67
+	+	157	76
+	+	165	0
+	+	165	0
+	+	165	0
+	+	159	0
+	+	154	60
+	+	155	59
+	+	156	66
+	+	157	75
+	+	155	59
+	+	154	60
+	+	159	75
+	+	157	65
+	+	158	66
+	+	155	59
+	+	154	60
+	+	67	16
+	+	136	111
+	+	136	28
+	+	137	0
+	+	136	30
+	+	121	12
+	+	139	24
+	+	141	26
+	+	121	0
+	+	160	24
+	+	10	16
+	+	133	19
+	+	30	0
+	+	31	15
+	+	33	23
+	+	31	0
+	+	32	0
+	+	136	0
+	+	153	25
+	+	159	25
+	+	25	0
+	+	146	52
+	+	147	0
+	+	170	0
+	+	132	0
+	+	129	0
+	+	132	0
+	+	150	44
+	+	153	35
+	+	168	43
+	+	30	28
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/coin/coin.hpp
+	"	39	20
+	^	28	34
+	.	28	33
+	+	2	6
+	+	20	27
+	+	21	9
+	+	24	5
+	+	25	0
+	+	24	12
+	+	31	0
+	+	36	37
+	+	37	0
+	+	26	20
+	+	32	93
+	+	33	7
+	+	32	7
+	+	23	0
+	+	33	25
+	+	34	21
+	+	41	0
+	+	41	0
+	+	42	21
+	+	44	0
+	+	45	18
+	+	48	0
+	+	20	40
+	+	32	3
+	+	20	16
+	+	50	58
+	+	45	23
+	+	42	10
+	+	28	37
+	+	8	16
+	+	27	15
+	+	39	23
+	+	47	27
+	+	40	21
+	+	27	0
+	+	38	26
+	+	27	14
+	+	38	38
+	+	28	33
+	+	47	8
+	+	40	6
+	+	39	8
+	+	28	33
+	+	47	14
+	+	39	33
+	+	47	14
+	+	28	33
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/rapport/structure.tex
+	"	48	0
+	^	191	1
+	.	191	0
+	+	96	50
+	+	48	33
+	+	89	23
+	+	90	45
+	+	91	13
+	+	92	11
+	+	192	0
+	+	191	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/menu.hpp
+	"	22	0
+	^	27	230
+	.	22	0
+	+	22	0
+	+	27	0
+	+	22	120
+	+	27	1
+	+	27	229
+	+	22	0
+	+	27	0
+	+	29	0
+	+	22	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/events.h
+	"	34	2
+	.	33	2
+	+	33	2
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/gui_ids.h
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/Makefile
+	"	4	10
+	^	7	38
+	.	4	0
+	+	7	37
+	+	4	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu (2)/menu.cpp
+	"	167	3
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/main_test.cpp
+	"	22	1
+	^	8	18
+	.	8	17
+	+	8	17
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/menu/menu.h
+	"	1	0
+
+> ~/Documents/Cours/Rohmer/convex_hull/project/src/hull/operations.cpp
+	"	253	2
+	.	156	0
+	+	12	0
+	+	13	0
+	+	40	0
+	+	24	28
+	+	20	21
+	+	38	0
+	+	38	0
+	+	20	4
+	+	22	0
+	+	38	0
+	+	38	0
+	+	21	24
+	+	26	24
+	+	27	17
+	+	28	0
+	+	29	0
+	+	32	0
+	+	35	0
+	+	29	15
+	+	26	19
+	+	27	8
+	+	29	19
+	+	30	8
+	+	29	22
+	+	27	8
+	+	26	19
+	+	29	19
+	+	30	8
+	+	32	19
+	+	33	8
+	+	32	15
+	+	35	22
+	+	36	8
+	+	39	10
+	+	10	24
+	+	11	20
+	+	12	20
+	+	13	20
+	+	14	24
+	+	13	24
+	+	12	24
+	+	11	24
+	+	26	22
+	+	29	13
+	+	32	22
+	+	35	13
+	+	23	23
+	+	199	0
+	+	212	0
+	+	256	0
+	+	156	0
+	+	18	61
+	+	41	4
+	+	187	0
+	+	7	34
+	+	9	16
+	+	18	14
+	+	24	9
+	+	27	14
+	+	30	14
+	+	33	14
+	+	36	14
+	+	196	14
+	+	198	16
+	+	196	46
+	+	202	28
+	+	203	17
+	+	229	26
+	+	252	47
+	+	255	16
+	+	259	26
+	+	261	25
+	+	198	32
+	+	198	0
+	+	239	28
+	+	239	29
+	+	239	58
+	+	242	9
+	+	244	12
+	+	251	0
+	+	240	0
+	+	250	0
+	+	251	0
+	+	198	0
+	+	154	49
+	+	142	50
+	+	21	16
+	+	26	22
+	+	29	18
+	+	32	22
+	+	35	18
+	+	206	28
+	+	241	26
+	+	242	24
+	+	244	7
+	+	242	32
+	+	196	19
+	+	166	0
+	+	196	0
+	+	156	0
+	h	259	28
+	m	259	28
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/gameTWOCAM.hpp
+	"	43	1
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/gameONECAM.cpp
+	"	100	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/CSceneNodeAnimatorCameraFPS.hpp
+	"	31	2
+	.	24	0
+	+	31	48
+	+	32	64
+	+	33	15
+	+	24	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/CSceneNodeAnimatorCameraFPS.cpp
+	"	1	0
+
+> ~/Documents/MyPrograms/SudokuSolver/SudokuSolver.c
+	"	369	0
+
+> /etc/init.d/hwclock.sh
+	"	15	23
+
+> /etc/default/rcS
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/pour_le_partiel/rapport/Rapport.tex
+	"	83	4
+	^	83	38
+	.	83	37
+	+	22	26
+	+	82	36
+	+	84	0
+	+	83	37
+
+> ~/Documents/MyPrograms/dindinx/ETI5/pour_le_partiel/src/rohmer/scene.cpp
+	"	236	27
+	^	236	28
+	.	235	80
+	+	216	95
+	+	235	80
+
+> ~/Documents/MyPrograms/dindinx/ETI5/pour_le_partiel/rapport/Rapport.
+	"	1	0
+
+> ~/Documents/Cours/Rohmer/tp_skinning/project/src/local/scene/scene.cpp
+	"	317	0
+	^	229	0
+	.	246	0
+	+	24	63
+	+	38	4
+	+	40	0
+	+	42	4
+	+	117	4
+	+	119	29
+	+	162	4
+	+	164	29
+	+	203	4
+	+	205	58
+	+	242	4
+	+	244	69
+	+	261	4
+	+	265	4
+	+	267	4
+	+	269	65
+	+	273	4
+	+	275	53
+	+	279	4
+	+	93	2
+	+	96	0
+	+	100	2
+	+	103	2
+	+	106	0
+	+	93	34
+	+	94	0
+	+	95	0
+	+	100	31
+	+	103	38
+	+	100	33
+	+	280	0
+	+	100	23
+	+	44	88
+	+	49	1
+	+	50	29
+	+	72	6
+	+	74	37
+	+	89	6
+	+	108	91
+	+	115	7
+	+	100	53
+	+	93	35
+	+	94	34
+	+	95	34
+	+	102	55
+	+	104	40
+	+	105	39
+	+	104	39
+	+	103	39
+	+	104	39
+	+	105	39
+	+	102	22
+	+	101	22
+	+	100	22
+	+	101	36
+	+	102	36
+	+	100	36
+	+	185	19
+	+	184	98
+	+	185	34
+	+	184	92
+	+	101	38
+	+	102	39
+	+	101	42
+	+	102	32
+	+	101	32
+	+	100	48
+	+	101	49
+	+	102	32
+	+	100	39
+	+	176	5
+	+	240	5
+	+	242	0
+	+	240	0
+	+	25	0
+	+	240	47
+	+	231	5
+	+	246	1
+	+	228	0
+	+	213	0
+	+	195	3
+	+	202	1
+	+	195	0
+	+	187	2
+	+	211	4
+	+	227	3
+	+	223	4
+	+	224	4
+	+	225	5
+	+	225	0
+	+	181	0
+	+	318	0
+	+	186	5
+	+	194	5
+	+	195	0
+	+	202	0
+	+	214	5
+	+	229	0
+	+	231	0
+	+	246	0
+
+> ~/Documents/Cours/Rohmer/convex_hull/CMakeLists.txt
+	"	8	60
+	^	8	61
+	.	8	60
+	+	8	60
+
+> ~/Documents/Cours/Rohmer/convex_hull/project/src/hull/operations.hpp
+	"	8	46
+	^	8	47
+	.	8	46
+	+	27	56
+	+	28	14
+	+	7	34
+	+	8	46
+
+> ~/Documents/Cours/Rohmer/convex_hull/project/src/hull/compute_hull.cpp
+	"	22	16
+	^	9	17
+	.	9	16
+	+	18	0
+	+	43	0
+	+	10	0
+	+	11	0
+	+	13	24
+	+	14	0
+	+	15	53
+	+	13	54
+	+	23	0
+	+	11	25
+	+	13	24
+	+	14	97
+	+	15	34
+	+	25	45
+	+	24	96
+	+	23	24
+	+	21	24
+	+	23	22
+	+	13	22
+	+	15	63
+	+	25	63
+	+	5	18
+	+	3	0
+	+	24	17
+	+	15	66
+	+	25	23
+	+	30	9
+	+	32	29
+	+	9	16
+
+> ~/Documents/Cours/Rohmer/tp_skinning/rapport/Rapport.tex
+	"	178	4
+	^	178	315
+	.	178	314
+	+	102	72
+	+	104	126
+	+	104	0
+	+	104	96
+	+	138	296
+	+	136	0
+	+	180	0
+	+	188	161
+	+	179	3
+	+	159	0
+	+	158	1
+	+	180	0
+	+	158	0
+	+	158	50
+	+	144	0
+	+	158	0
+	+	148	102
+	+	148	5
+	+	150	77
+	+	153	215
+	+	146	107
+	+	153	105
+	+	157	248
+	+	180	0
+	+	168	56
+	+	134	0
+	+	172	45
+	+	176	31
+	+	174	20
+	+	178	314
+
+> ~/Documents/Cours/Rohmer/tp_skinning/rapport/structure.tex
+	"	92	12
+	^	96	62
+	.	96	61
+	+	48	29
+	+	90	53
+	+	96	61
+
+> ~/Documents/Cours/Rohmer/tp_skinning/project/src/local/interface/main.cpp
+	"	1	0
+
+> ~/Documents/Cours/Rohmer/tp_skinning/project/src/local/interface/myWindow.cpp
+	"	57	0
+
+> ~/Documents/Cours/Majeure/Projet/Rapport/Rapport.tex
+	"	148	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/Makefile
+	"	4	63
+	^	4	64
+	.	4	63
+	+	4	46
+	+	7	0
+	+	7	0
+	+	7	22
+	+	4	63
+	+	7	0
+	+	7	0
+	+	4	9
+	+	8	11
+	+	4	63
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/hover_2017/src/game/game
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/video_game/src/game_modif/main.cpp
+	"	305	11
+	^	305	12
+	.	305	11
+	+	295	11
+	+	285	11
+	+	14	0
+	+	15	0
+	+	14	14
+	+	15	14
+	+	17	34
+	+	284	22
+	+	281	14
+	+	282	36
+	+	286	0
+	+	282	15
+	+	287	38
+	+	288	21
+	+	289	18
+	+	22	0
+	+	30	0
+	+	22	19
+	+	30	42
+	+	280	0
+	+	276	0
+	+	5	13
+	+	30	0
+	+	18	31
+	+	141	14
+	+	241	15
+	+	29	0
+	+	27	20
+	+	275	16
+	+	276	14
+	+	277	41
+	+	291	10
+	+	286	10
+	+	281	9
+	+	23	14
+	+	292	53
+	+	302	10
+	+	278	16
+	+	282	37
+	+	287	15
+	+	292	42
+	+	300	55
+	+	302	44
+	+	278	0
+	+	245	0
+	+	19	0
+	+	294	25
+	+	19	2
+	+	20	23
+	+	251	38
+	+	110	0
+	+	107	46
+	+	25	20
+	+	291	9
+	+	15	30
+	+	14	33
+	+	134	25
+	+	224	0
+	+	219	0
+	+	224	2
+	+	225	12
+	+	226	51
+	+	230	7
+	+	217	40
+	+	229	64
+	+	226	58
+	+	230	13
+	+	107	31
+	+	107	47
+	+	107	48
+	+	107	38
+	+	107	0
+	+	108	0
+	+	109	0
+	+	107	11
+	+	108	49
+	+	107	49
+	+	211	7
+	+	211	24
+	+	211	0
+	+	210	62
+	+	197	2
+	+	199	2
+	+	200	2
+	+	202	2
+	+	203	2
+	+	205	2
+	+	206	2
+	+	208	2
+	+	209	2
+	+	212	63
+	+	200	30
+	+	203	30
+	+	206	30
+	+	209	30
+	+	212	0
+	+	28	19
+	+	299	0
+	+	298	12
+	+	305	11
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/tutos/seance2/full-gui/main.cpp
+	"	45	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/tutos/seance2/full-gui/events.cpp
+	"	36	19
+	^	36	20
+	.	36	19
+	+	144	13
+	+	145	65
+	+	144	12
+	+	145	0
+	+	36	19
+
+> ~/Documents/Cours/Rohmer/convex_hull/project/src/hull/main.cpp
+	"	33	20
+	^	33	21
+	.	33	20
+	+	18	22
+	+	19	70
+	+	33	46
+	+	35	58
+	+	37	0
+	+	38	51
+	+	51	0
+	+	38	27
+	+	33	22
+	+	33	19
+	+	34	0
+	+	33	20
+	+	103	0
+	+	79	96
+	+	105	4
+	+	33	20
+
+> ~/Documents/Cours/Rohmer/convex_hull/build/Makefile
+	"	57	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/tutos/seance2/full-gui/events.
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/tutos/etape5/main.cpp
+	"	63	53
+	^	63	54
+	.	63	53
+	+	2	0
+	+	62	56
+	+	66	51
+	+	2	0
+	+	66	51
+	+	62	52
+	+	66	47
+	+	68	3
+	+	67	55
+	+	66	3
+	+	67	48
+	+	63	60
+	+	62	3
+	+	63	53
+
+> ~/Téléchargements/python/v10.py
+	"	28	0
+
+> ~/Bureau/English/Presentation/Presentation.tex
+	"	117	5
+	^	117	39
+	.	117	39
+	+	108	31
+	+	113	36
+	+	142	38
+	+	75	37
+	+	77	45
+	+	117	39
+
+> ~/Bureau/English/Presentation/Makefile
+	"	10	1
+	^	10	3
+	.	10	2
+	+	9	1
+	+	10	2
+
+> ~/Documents/MyPrograms/LaTeX/English/Rapport.tex
+	"	122	1
+	^	115	29
+	.	122	0
+	+	20	0
+	+	21	0
+	+	68	185
+	+	69	109
+	+	70	107
+	+	71	25
+	+	72	32
+	+	73	101
+	+	74	70
+	+	75	6
+	+	81	50
+	+	105	7
+	+	106	31
+	+	115	29
+	+	122	0
+
+> ~/Documents/MyPrograms/LaTeX/English/Makefile
+	"	8	0
+
+> ~/Documents/MyPrograms/LaTeX/English/Presentation.tex
+	"	60	0
+	^	60	101
+	.	60	100
+	+	24	81
+	+	24	0
+	+	22	0
+	+	35	81
+	+	35	0
+	+	18	0
+	+	25	0
+	+	33	0
+	+	48	0
+	+	12	18
+	+	27	0
+	+	28	9
+	+	31	0
+	+	38	25
+	+	39	0
+	+	47	0
+	+	9	0
+	+	10	20
+	+	11	42
+	+	31	0
+	+	29	0
+	+	32	25
+	+	29	16
+	+	30	29
+	+	10	0
+	+	9	0
+	+	12	0
+	+	68	0
+	+	46	73
+	+	46	0
+	+	46	0
+	+	45	18
+	+	42	48
+	+	41	19
+	+	42	19
+	+	41	26
+	+	42	16
+	+	41	23
+	+	44	0
+	+	41	58
+	+	42	0
+	+	44	0
+	+	42	85
+	+	43	94
+	+	41	60
+	+	42	86
+	+	42	0
+	+	41	70
+	+	42	99
+	+	48	1
+	+	54	0
+	+	40	0
+	+	52	27
+	+	51	33
+	+	53	0
+	+	52	21
+	+	53	0
+	+	52	0
+	+	37	0
+	+	53	0
+	+	54	0
+	+	54	17
+	+	54	35
+	+	54	48
+	+	54	31
+	+	54	0
+	+	54	21
+	+	54	25
+	+	54	36
+	+	54	32
+	+	54	0
+	+	54	1
+	+	54	1
+	+	54	0
+	+	54	23
+	+	54	0
+	+	54	0
+	+	54	27
+	+	56	0
+	+	68	1
+	+	55	3
+	+	37	14
+	+	84	17
+	+	83	22
+	+	84	0
+	+	83	63
+	+	84	0
+	+	83	14
+	+	37	14
+	+	37	0
+	+	64	47
+	+	59	23
+	+	60	100
+
+> ~/Documents/Cours/machine_learning/ml_tutorial/unsupervised.pdf
+	"	1	0
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/video_game/src/game_modif/Makefile
+	"	4	3
+	^	4	4
+	.	4	3
+	+	8	11
+	+	4	3
+
+> ~/Documents/MyPrograms/dindinx/ETI5/JVideo/tutos/seance2/physique/main.cpp
+	"	51	2
+	^	47	52
+	.	47	51
+	+	44	56
+	+	47	51
+
+> /media/kodama/Phoenix/Users/Kodama/Documents/Cours/Estimation/TP/PDF/Rapport.tex
+	"	27	3
+	^	76	43
+	.	76	42
+	+	71	0
+	+	77	0
+	+	76	42

@@ -1,0 +1,83 @@
+snippet frame "Create a frame for beamer" b
+%---------------------------------------------------------------------- FRAME -
+\begin{frame}[fragile]
+\frametitle{${1:titre}}
+
+$0
+
+\end{frame}
+%------------------------------------------------------------------------------
+endsnippet
+
+snippet texheader "Header for LaTeX codes by Kodama" b
+%% vim: foldmethod=marker foldmarker={{{,}}} foldcolumn=1
+
+%% `!p snip.rv = snip.fn` created on `date +%Y-%m-%d` by `echo $USER` {{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                 %
+%      ▄█   ▄█▄  ▄██████▄  ████████▄     ▄████████   ▄███▄ ▄███▄      ▄████████   %
+%     ███ ▄███▀ ███    ███ ███   ▀███   ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   %
+%     ███▐██▀   ███   ████ ███    ███   ███    ███ ███   ███   ███   ███    ███   %
+%    ▄█████▀    ███  █ ███ ███    ███   ███    ███ ███   ███   ███   ███    ███   %
+%   ▀▀█████▄    ███ █  ███ ███    ███ ▀███████████ ███   ███   ███ ▀███████████   %
+%     ███▐██▄   ████   ███ ███    ███   ███    ███ ███         ███   ███    ███   %
+%     ███ ▀███▄ ███    ███ ███   ▄███   ███    ███ ███         ███   ███    ███   %
+%     ███   █▀   ▀██████▀  ████████▀    ███    █▀   ▀█         █▀    ███    █▀    %
+%                                                                                 %
+%                                      ▄ ▄                                        %
+%                ██████████  ▄████████ █ █ ██████████                             %
+%                         █ ▄█▄    █▀              █▀                             %
+%                         █ █ █   █▀              █▀                              %
+%                         █    ███▀           ▀█ █▀                               %
+%                         █   ██▀              ▀█▀                                %
+%                █████████▀ ██▀                 ▀█                                %
+%                                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  }}}
+
+\documentclass{${1:article}}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\newcommand{\loremipsum}{\newline\textit{Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Donec nec condimentum libero. Phasellus condimentum porttitor congue.
+Morbi eget quam sed justo egestas lobortis. Aenean et erat metus.
+Nam metus nibh, imperdiet eget gravida sed, consequat eu nulla. Donec massa mauris, luctus vitae auctor non, sagittis non sapien.
+Donec interdum pretium venenatis. Pellentesque aliquam convallis convallis.
+Fusce tincidunt orci eu velit varius luctus. Etiam iaculis viverra enim ac varius.
+Duis pretium elit eu eros auctor vel iaculis nulla commodo. Aliquam interdum fermentum orci sed fringilla.
+Sed euismod condimentum dui, et pharetra ipsum dictum quis.}\newline}
+
+endsnippet
+
+snippet it "Pour entrer un texte en italique :)" !b
+\textit{${1:Texte}} $0
+endsnippet
+
+snippet figure "Ajoute une figure centrée dans la page en largeur" !b
+   \begin{figure}[h]
+     \begin{center}
+       \includegraphics[height=${1:5}cm]{${2:<chemin d'accès>}
+       \caption{${3:<légende de l'image>}}
+     \end{center}
+   \end{figure}
+endsnippet
+
+snippet glosent "Nouvelle entrée de glossaire" !b
+\newglossaryentry{${1:label}} %{{{
+{
+  name = {${2:nom de l'entrée}},
+  description = {${3:description de l'entrée}},
+  sort = {${4:terme pour le classement alphabétique de l'entrée}},
+} %}}}
+
+$0
+endsnippet
+
+snippet glosquote "Citation d'une entrée du glossaire" !b
+\gls{${1:label de l'entrée}}
+endsnippet
+
+snippet emph "Emphasize" !b
+\emph{${1:Emphasize}} $0
+endsnippet

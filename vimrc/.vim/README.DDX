@@ -1,0 +1,8 @@
+
+- The pathogen plug-in has been installed in ~/.vim/autoload/ directly from
+  http://vim.sourceforge.net/scripts/script.php?script_id=2332 (version 2.0)
+  see https://github.com/tpope/vim-pathogen
+- The Ultisnips plugin has been installed in ~/.vim/bundle directly from
+  http://vim.sourceforge.net/scripts/script.php?script_id=2715 (version 2.1)
+  It is in this directory so it is bundled by pathogen.
+  Settings has been altered in the ~/.vimrc for the triggers.
